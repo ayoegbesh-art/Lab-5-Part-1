@@ -4,6 +4,7 @@ import PersonalInfo from './components/PersonalInfo';
 import MovieBooking from './components/MovieBooking';
 
 export default function App() {
+  const [balcony, setBalcony] = useState(False);
   return (
     <View style={styles.screencontainer}>
       <View style={styles.imgview}>

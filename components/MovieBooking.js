@@ -2,6 +2,7 @@ import {Text, SafeAreaView, TextInput, StyleSheet, View, Switch, Button, Touchab
 import { Picker } from '@react-native-picker/picker';
 import Slider from '@react-native-community/slider';
 import DatePicker from '../components/DatePicker';
+import Switch from './Switch';
 
 import { useState } from 'react';
 
